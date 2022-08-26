@@ -1,0 +1,61 @@
+.reloj {
+	
+	background-image: url("https://w7.pngwing.com/pngs/651/839/png-transparent-clock-face-template-clock-position-clock-without-hands-template-angle-white-thumbnail.png");
+	width: 350px;
+	height: 350px;
+	border-radius: 370px;
+	background-color: #89d275;
+	background-size: 100%;
+	border: 14px solid rgb(238, 45, 209);
+	display: flex;
+	margin: auto;
+}
+
+body {
+	background-color: #a9f0f9;;
+	font-family: Century Gothic
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+.reloj img {
+	position: relative;
+	height: 350px;
+	transition: all 0.5s
+}
+
+
+.reloj #minutos   {
+	position: absolute;
+}
+.reloj #segundos {
+	position: absolute;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex .contenido {
+	padding: 32 px;
+	flex: 4 4;
+}
+.flex .contenido:first-child {
+	flex: 5 5;
+}
+
+
+.contenido p {
+	font-size: 70px;
+	color: #333;
+	text-align: center;
+}
+.contenido h4 {
+	font-size: 80px;
+	color: #333;
+	text-align: center;
+}
